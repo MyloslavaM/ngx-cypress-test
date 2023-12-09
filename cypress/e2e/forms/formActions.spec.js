@@ -1,7 +1,7 @@
 
 describe('Forms page', ()=>{
   it('form', ()=>{
-    cy.visit('/pages/forms/layouts')
+    cy.visit('http://localhost:4200/')
 
     const name = 'Stanislav'
     const email = 'test@test.com'
